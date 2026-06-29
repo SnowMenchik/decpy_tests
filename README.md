@@ -26,16 +26,23 @@
 1. Установите зависимости:
    ```bash
    pip install pytest decpy
+   
 2. Клонируйте репозиторий:
    git clone https://github.com/ваш-логин/decpy-tests.git
+   
    cd decpy-tests
-3. Запустите все тесты:
+   
+4. Запустите все тесты:
    pytest -v
+   
 Все тесты проходят на версии decpy 2.0.0.
+
 Структура проекта:
 
 test_01.py … test_08.py – тестовые файлы
+
 Otladka_*.py, Baza_dannykh_Prodazhi.py, Rodoslovnoe_drevo_Predikaty.py – отладочные скрипты, по которым писались тесты (если вы решите их тоже загрузить)
+
 README.md – это описание
 
 Цель проекта:
