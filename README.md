@@ -26,14 +26,18 @@
 1. Установите зависимости:
    ```bash
    pip install pytest decpy
+   ```
    
 2. Клонируйте репозиторий:
+ ```bash
    git clone https://github.com/ваш-логин/decpy-tests.git
-   
    cd decpy-tests
+```
    
 4. Запустите все тесты:
+```bash
    pytest -v
+```
    
 Все тесты проходят на версии decpy 2.0.0.
 
